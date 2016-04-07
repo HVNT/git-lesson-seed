@@ -1,2 +1,9 @@
-# git-lesson-seed
-Seed project for Georgia Tech's CS 4660 teaching design assignment. 
+# Let's learn git!  
+
+### Why should you take this course?
+
+### What is version control?
+
+### What is git?
+
+ 
