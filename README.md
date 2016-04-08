@@ -14,9 +14,10 @@ Git is a Version Control System. There are many Version Control Systems out ther
 
 ### Step 1:  
 To get started, we need to make sure you have git installed on your Operating System. If already have git installed you can skip this step and continue to Step 2.  
-Go to https://git-scm.com/downloads. Once you have the .img or .exe (OS X or Windows, respectively), go ahead and click the file to run it. Follow the instructions and install git.
+Go to https://git-scm.com/downloads and download the appropriate git for your Operating System.  
+Once you have the .img or .exe (OS X or Windows, respectively), go ahead and click the file to run it. Follow the instructions and install git.  
 You can confirm you have git by opening up your terminal (or window prompt) and entering the command 'git help'.  
 Once you have confirmed git is installed continue to Step 2.
 
 ### Step 2: 
- 
+The command 'git help' you ran in Step 1 ran the 'help' function in git using gits command-line interface (CLI). A CLI is simply a text based interface that you most commonly interact with through your command prompt (i.e. your terminal or window prompt). A CLI is just a way to interact with an underlying program, the same way your clicking the 'refresh' button on your browser interacts with it's underlying program. An interface of any time is simply a means for a program to digest user input. 
