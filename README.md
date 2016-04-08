@@ -5,7 +5,7 @@ Ok, so you've finished your first Computer Science class at Georgia Tech. You un
 
 ### What is version control?
 Version Control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Think a really lightweight "OS X" bootcamp for your CS projects. It allows you to revert files back to a previous state, revert the entire project back toa  previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and much more.   
-(source: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
+source: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 ### What is git?
 Git is a Version Control System. There are many Version Control Systems out there, git is just one of them. We are teaching git because we feel like it has been accepted by the majority of the software industry as the best practice Version Control System. Lately, we've seen recruiters talk as if it's a requirement to any Computer Science graduate's resume.
