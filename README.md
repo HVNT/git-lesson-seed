@@ -30,8 +30,10 @@ Now that you know what git is and how to interface with it via the command line,
 Go ahead and make a new folder wherever you'd like (your desktop might be easiest, but it doesn't matter) and open your command prompt and navigate to it (using the command cd). Once you are in the folder inside your command prompt, go ahead and make your first git repository using the command 'git init'. There should now be a .git directory in the folder you created if you followed the steps correctly. If this is the case, continue to Step 4. 
 
 ### Step 4: Making your first GitHub repository.
+Navigate to GitHub.com; create an account if you don't already have one. Create your first GitHub repository and name it whatever you'd like. Once you have a repository set up continue to Step 5.
 
 ### Step 5: Making your first git commit.
+Now that you have a GitHub repository, lets point the git project you made in Step 3 to the GitHub repository you made in Step 4. Navigate back your project from your command line. To point your git project to your GitHub repository enter the command 'git remote add origin git@github.com:YOUR_REPO_NAME_HERE.git'. Replace "YOU_REPO_NAME_HERE" with the name of your GitHub repository. You can check if this worked by typing 'git remote -v'. You should see two lines, both the same https url, with one saying "(fetch)" and another "push". If you see those two lines, continue to Step 6.
 
 ### Step 6: Pushing your first commit to GitHub.
 
@@ -42,4 +44,6 @@ Go ahead and make a new folder wherever you'd like (your desktop might be easies
 ### Step 9: Pushing your branch to your GitHub repository
 
 ### Step 10: Making your first pull request and merging it into master.
+
+### Step 11: Synchronizing your local git repository to origin master.
 
