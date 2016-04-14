@@ -32,7 +32,7 @@ Go ahead and make a new folder wherever you'd like (your desktop might be easies
 ### Step 4: Making your first GitHub repository.
 Navigate to GitHub.com; create an account if you don't already have one. Create your first GitHub repository and name it whatever you'd like. Once you have a repository set up continue to Step 5.
 
-### Step 5: Making your first git commit.
+### Step 5: Pointing your git repository to GitHub.
 Now that you have a GitHub repository, lets point the git project you made in Step 3 to the GitHub repository you made in Step 4. Navigate back your project from your command line. To point your git project to your GitHub repository enter the command 'git remote add origin git@github.com:YOUR_REPO_NAME_HERE.git'. Replace "YOU_REPO_NAME_HERE" with the name of your GitHub repository. You can check if this worked by typing 'git remote -v'. You should see two lines, both the same https url, with one saying "(fetch)" and another "push". Your terminal should look something like this (ignore the stuff to the left of the hunt% and look at the response on the two lines after the command git remote -v is invoked).  
 ![alt text](http://i.imgur.com/mZP3dYs.png "Confirmation for step 5.")  
 If you see the same two lines after 'git remote -v' continue to Step 6.
