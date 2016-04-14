@@ -25,7 +25,7 @@ Once you have confirmed git is installed continue to Step 2.
 ### Step 2: Getting started.
 The command 'git help' you ran in Step 1 ran the 'help' function in git using gits command-line interface (CLI). A CLI is simply a text based interface that you most commonly interact with through your command line (i.e. your terminal or window prompt). A CLI is just a way to interact with an underlying program, the same way your clicking the 'refresh' button on your browser interacts with it's underlying program. An interface of any time is simply a means for a program to digest user input. You can now continue to Step 3.
 
-### Step 3: Making your first git project.
+### Step 3: Making your first git repository.
 Now that you know what git is and how to interface with it via the command line, lets make your first git repository.  
 Go ahead and make a new folder wherever you'd like (your desktop might be easiest, but it doesn't matter) and open your command prompt and navigate to it (using the command cd). Once you are in the folder inside your command prompt, go ahead and make your first git repository using the command 'git init'. There should now be a .git directory in the folder you created if you followed the steps correctly. If this is the case, continue to Step 4. 
 
