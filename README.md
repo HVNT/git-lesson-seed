@@ -50,3 +50,5 @@ You're getting the hang of this, good stuff! In the last step we pushed our comm
 
 ### Step 11: Synchronizing your local git repository to origin master.
 
+### Step 12: Lets see if you can do it on your own. (Repeating steps 7-11).
+
