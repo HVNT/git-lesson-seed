@@ -23,6 +23,9 @@ You can confirm you have git by opening up your terminal (or window prompt) and 
 Once you have confirmed git is installed continue to Step 2.
 
 ### Step 2: Getting started.
+If step 1 is properly complete, you have the lesson's seed project "cloned" succesfully on your computer. Your project setup looks like this currently:    
+![alt text](http://imgur.com/srNC2xN "Project status after step 1.")  
+
 The command 'git help' you ran in Step 1 ran the 'help' function in git using gits command-line interface (CLI). A CLI is simply a text based interface that you most commonly interact with through your command line (i.e. your terminal or window prompt). A CLI is just a way to interact with an underlying program, the same way your clicking the 'refresh' button on your browser interacts with it's underlying program. An interface of any time is simply a means for a program to digest user input. You can now continue to Step 3.
 
 ### Step 3: Making your first git repository.
@@ -30,14 +33,23 @@ Now that you know what git is and how to interface with it via the command line,
 Go ahead and make a new folder wherever you'd like (your desktop might be easiest, but it doesn't matter) and open your command prompt and navigate to it (using the command cd). Once you are in the folder inside your command prompt, go ahead and make your first git repository using the command 'git init'. There should now be a .git directory in the folder you created if you followed the steps correctly. If this is the case, continue to Step 4. 
 
 ### Step 4: Making your first GitHub repository.
+If step 3 is properly complete, you have successfully made your project's personal git repository. Your current project setup looks like this currently:  
+![alt text](http://imgur.com/bsG3idz "Project status after step 3.")  
+
 Navigate to GitHub.com; create an account if you don't already have one. Create your first GitHub repository and name it whatever you'd like. Once you have a repository set up continue to Step 5.
 
 ### Step 5: Pointing your git repository to GitHub.
+If step 4 is properly complete your project's personal git repository should now be pointing at your GitHub repository you made in step 4. Conceptually, your project set looks like this currently:  
+![alt text](http://imgur.com/7JkLEEP "Project status after step 4.")  
+
 Now that you have a GitHub repository, lets point the git project you made in Step 3 to the GitHub repository you made in Step 4. Navigate back your project from your command line. To point your git project to your GitHub repository enter the command 'git remote add origin git@github.com:YOUR_REPO_NAME_HERE.git'. Replace "YOU_REPO_NAME_HERE" with the name of your GitHub repository. You can check if this worked by typing 'git remote -v'. You should see two lines, both the same https url, with one saying "(fetch)" and another "push". Your terminal should look something like this (ignore the stuff to the left of the hunt% and look at the response on the two lines after the command git remote -v is invoked).  
 ![alt text](http://i.imgur.com/mZP3dYs.png "Confirmation for step 5.")  
 If you see the same two lines after 'git remote -v' continue to Step 6.
 
 ### Step 6: Pushing your first commit to GitHub.
+If step 4 is properly complete your project's personal git repository should now be pointing at your GitHub repository you made in step 4. Conceptually, your project set looks like this currently:  
+![alt text](http://imgur.com/787FzSE "Project status after step 5.")  
+
 Ok, lets get some stuff on your GitHub project finally. In same directory as this README.md file, there is an "index.html" file. Copy and paste that file into the git project you made in Step 3. Once the "index.html" file is in that project, go back to your command line and navigate back to it. Right now we have our "index.html" file in the same folder as our git repository, but it has not been added it. Lets do that. Go ahead and type in the command 'git add -A'. The git "add" command takes uncommitted changes from the files in your local git repository and stages them in git committed. Next, type in the command 'git commit -m "my first commit"'.
 The git "commit" command takes your local git changes that are currently staged and pushes them to branch your active local origin branch. This is great! Currently, we have our "index.html" file under version control! We can confidently make any changes we'd like now to the index.html file with the knowledge that we can revert it back to any previous moment in time (as long as we committed it at that moment, which is why you should commit often!). It's awesome that we have it under version control locally, but this is a group project and other people need it too! To make that possible we need to push our committed changes up to GitHub (origin). Do this by entering the command "git push origin master". The git "push" command push changes to the specified location. In thise, that location is "origin master". "Origin" is telling git that we are trying to push our committed changes to somewhere outside of this computer; in this case, "origin" is whatever yous et it to in Step 5. "Master" is telling us we want to push these commits to the master branch on "origin".
 
