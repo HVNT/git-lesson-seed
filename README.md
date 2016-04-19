@@ -19,12 +19,16 @@ Git is great, but we need a put our project that everyone can access: AKA the in
 To get started, we need to make sure you have git installed on your Operating System. If already have git installed you can skip this step and continue to Step 2.  
 Go to https://git-scm.com/downloads and download the appropriate git for your Operating System.  
 Once you have the .img or .exe (OS X or Windows, respectively), go ahead and click the file to run it. Follow the instructions and install git.  
-You can confirm you have git by opening up your terminal (or window prompt) and entering the command 'git help'.  
+You can confirm you have git by opening up your terminal (or window prompt) and entering the command "git help".  
+Once git is installed, lets clone this lesson's project to our computer. You can do that by running "git clone https://github.com/HVNT/git-lesson-seed.git"
+Your terminal should look something like this if the "git clone" is entered properly.  
+![alt text](http://i.imgur.com/nKVzZvM.png "Confirm git clone.")  
+
+After you cloned the lesson's seet project your setup looks like this:    
+![alt text](http://imgur.com/srNC2xN.png "Project status after step 1.")  
 Once you have confirmed git is installed continue to Step 2.
 
 ### Step 2: Getting started.
-If step 1 is properly complete, you have the lesson's seed project "cloned" succesfully on your computer. Your project setup looks like this currently:    
-![alt text](http://imgur.com/srNC2xN.png "Project status after step 1.")  
 
 The command 'git help' you ran in Step 1 ran the 'help' function in git using gits command-line interface (CLI). A CLI is simply a text based interface that you most commonly interact with through your command line (i.e. your terminal or window prompt). A CLI is just a way to interact with an underlying program, the same way your clicking the 'refresh' button on your browser interacts with it's underlying program. An interface of any time is simply a means for a program to digest user input. You can now continue to Step 3.
 
