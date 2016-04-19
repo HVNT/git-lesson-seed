@@ -43,6 +43,7 @@ If step 4 is properly complete your project's personal git repository should now
 ![alt text](http://imgur.com/7JkLEEP.png "Project status after step 4.")  
 
 Now that you have a GitHub repository, lets point the git project you made in Step 3 to the GitHub repository you made in Step 4. Navigate back your project from your command line. To point your git project to your GitHub repository enter the command 'git remote add origin git@github.com:YOUR_REPO_NAME_HERE.git'. Replace "YOU_REPO_NAME_HERE" with the name of your GitHub repository. You can check if this worked by typing 'git remote -v'. You should see two lines, both the same https url, with one saying "(fetch)" and another "push". Your terminal should look something like this (ignore the stuff to the left of the hunt% and look at the response on the two lines after the command git remote -v is invoked).  
+  
 ![alt text](http://i.imgur.com/mZP3dYs.png "Confirmation for step 5.")  
 If you see the same two lines after 'git remote -v' continue to Step 6.
 
